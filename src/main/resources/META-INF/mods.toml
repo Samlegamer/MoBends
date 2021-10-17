@@ -13,11 +13,11 @@ version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="Mo' Bends" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
-updateJSONURL="https://mobends.github.io/mod-update.json" #optional
+updateJSONURL="https://mobends.com/mod-update.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-# displayURL="http://example.com/" #optional
+displayURL="https://mobends.com/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="mobends.png" #optional
 credits="GoblinBob - original creator, Tommsy64 - coding support"
 authors="GoblinBob"
 # The description text for the mod (multi line!) (#mandatory)
@@ -43,11 +43,4 @@ It makes players seem alive, and adds epic sword animations!
     mandatory=true
     versionRange="[1.16.1,)"
     ordering="NONE"
-    side="BOTH"
-
-[[dependencies.mobends]]
-    modId="bendslib"
-    mandatory=true
-    versionRange="[0.1.0,)"
-    ordering="AFTER"
     side="BOTH"
